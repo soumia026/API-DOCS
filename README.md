@@ -1,7 +1,15 @@
 # API-DOCS
 ## General information
-- `Node.js` : open-source, server-side JavaScript runtime that allows you to run JavaScript code on a computer/server rether than just in a web browser
-- `Express.js` : 
+- `Node.js` : open-source, server-side JavaScript runtime that allows you to run JavaScript code on a computer/server rather than just in a web browser. Node is fast but it does not support request handling, HTTP methods or serving files so this where Express JS comes to the picture.
+- `Express.js` : A Node.js framework designed for building APIs, web applications and cross-platform mobile apps. Express is fast because there is no structural way to write the code.
+- `Middlewares` : a piece of code that sits between the server and the application's routes or endpoints. Think of it as a layer of functionality that can process or modify requests and responses as they flow through your web application. For example, we have a common use middlware:
+  
+  ```js
+  app.use(express.json())
+  ```
+  Previous middleware is a built-in middleware provided by the Express.js framework. It is used to parse incoming requests with JSON payloads.
+- `Controllers` and `Routes` : is simply a way to organize our server, so that things don't get very messy, controllers are modules that handle the logic and behavior of a specific route or endpoint in an application.
+  Routes are URLs or endpoints that users can access to interact with your application.
 ## First setup packages
 > express, dotenv, nodemon, morgan 
 ```js
