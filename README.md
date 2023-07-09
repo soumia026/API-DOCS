@@ -1,5 +1,7 @@
 # API-DOCS
-
+## General information
+- `Node.js` : open-source, server-side JavaScript runtime that allows you to run JavaScript code on a computer/server rether than just in a web browser
+- `Express.js` : 
 ## First setup packages
 > express, dotenv, nodemon, morgan 
 ```js
