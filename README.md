@@ -10,6 +10,7 @@
   Previous middleware is a built-in middleware provided by the Express.js framework. It is used to parse incoming requests with JSON payloads.
 - `Controllers` and `Routes` : is simply a way to organize our server, so that things don't get very messy, controllers are modules that handle the logic and behavior of a specific route or endpoint in an application.
   Routes are URLs or endpoints that users can access to interact with your application.
+- `Mongoose` : is an Object Data Modeling (ODM) library for Node.js that provides a higher-level abstraction layer for MongoDB. Mongoose offers features like data validation, middleware support, and query building utilities.
 ## First setup packages
 > express, dotenv, nodemon, morgan 
 ```js
@@ -116,6 +117,7 @@ const Model = mongoose.model('Model', ModelSchema)
 
 module.exports = Model
 ```
+- `{timestamps: true}` : is an option that can be passed to a schema to automatically add two fields `createdAt` and `updatedAt`, to each document in the collection.
 ### Model proprties
 | Option | Values |
 | ------ | ----------- |
