@@ -2,7 +2,7 @@
 ## General information
 - `Node.js` : open-source, server-side JavaScript runtime that allows you to run JavaScript code on a computer/server rather than just in a web browser. Node is fast but it does not support request handling, HTTP methods or serving files so this where Express JS comes to the picture.
 - `Express.js` : A Node.js framework designed for building APIs, web applications and cross-platform mobile apps. Express is fast because there is no structural way to write the code.
-- `Middlewares` : a piece of code that sits between the server and the application's routes or endpoints. Think of it as a layer of functionality that can process or modify requests and responses as they flow through your web application. For example, we have a common use middlware:
+- `Middlewares` : a piece of code that sits between the request and the response of our app.  It's like a checkpoint that checks or modifies something before it reaches its final destination. For example, we have a common use middlware:
   
   ```js
   app.use(express.json())
@@ -14,6 +14,7 @@
 - `AsyncHandler` : a simple library that helps you handle asynchronous functions in an Express.js middleware or route handler. It replaces `try` and `catch` blocks.
 - `Crypto` : a built-in module in Node.js provides a wide range of cryptographic functionalities to handle encryption, decryption, hashing, digital signatures, random number generation.  Encryption is like locking data in a safe with a secret key so that only those with the key can unlock and read it.  You take data (like a message) and mix it with a secret key using an "encryption algorithm." This creates unreadable ciphertext
 - `Hashing` : is one-way process of converting any input data, such as a string or a file, into a unique/fixed-length sequence of characters. You take any data (like a password) and pass it through a "magic math function" that produces a fixed-size string of characters (the hash value). Commonly used for password security (storing passwords securely) and data integrity checks.
+- `Token` : in a very simple way, a token is like a special pass or ticket that proves your identity or gives you access to something. Imagine you have a token that says, "I am User X." When you show this token to a website or an app, they know you are User X and let you in without asking for your password every time. 
 - ## First setup packages
 > express, dotenv, nodemon, morgan 
 ```js
