@@ -9,8 +9,9 @@
   ```
   Previous middleware is a built-in middleware provided by the Express.js framework. It is used to parse incoming requests with JSON payloads.
 - `Controllers` and `Routes` : is simply a way to organize our server, so that things don't get very messy, controllers are modules that handle the logic and behavior of a specific route or endpoint in an application.
-  Routes are URLs or endpoints that users can access to interact with your application.
+  Routes are URLs or endpoints that users can access to interact with our application.
 - `Mongoose` : is an Object Data Modeling (ODM) library for Node.js that provides a higher-level abstraction layer for MongoDB. Mongoose offers features like data validation, middleware support, and query building utilities.
+- `AsyncHandler` : a simple library that helps you handle asynchronous functions in an Express.js middleware or route handler. It replaces `try` and `catch` blocks.
 ## First setup packages
 > express, dotenv, nodemon, morgan 
 ```js
