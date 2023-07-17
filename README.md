@@ -14,7 +14,9 @@
 - `AsyncHandler` : a simple library that helps you handle asynchronous functions in an Express.js middleware or route handler. It replaces `try` and `catch` blocks.
 - `Crypto` : a built-in module in Node.js provides a wide range of cryptographic functionalities to handle encryption, decryption, hashing, digital signatures, random number generation.  Encryption is like locking data in a safe with a secret key so that only those with the key can unlock and read it.  You take data (like a message) and mix it with a secret key using an "encryption algorithm." This creates unreadable ciphertext
 - `Hashing` : is one-way process of converting any input data, such as a string or a file, into a unique/fixed-length sequence of characters. You take any data (like a password) and pass it through a "magic math function" that produces a fixed-size string of characters (the hash value). Commonly used for password security (storing passwords securely) and data integrity checks.
-- `Token` : in a very simple way, a token is like a special pass or ticket that proves your identity or gives you access to something. Imagine you have a token that says, "I am User X." When you show this token to a website or an app, they know you are User X and let you in without asking for your password every time. 
+- `Token` : in a very simple way, a token is like a special pass or ticket that proves your identity or gives you access to something. Imagine you have a token that says, "I am User X." When you show this token to a website or an app, they know you are User X and let you in without asking for your password every time.
+- `Bcrypt` : is a specific library designed for securely hashing passwords.  It uses a technique called "salting," where a random value (salt) is added to each password before hashing, adding an extra layer of security against precomputed tables (rainbow tables) used in password cracking.
+
 - ## First setup packages
 > express, dotenv, nodemon, morgan 
 ```js
