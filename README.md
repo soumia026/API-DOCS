@@ -16,6 +16,7 @@
 - `Hashing` : is one-way process of converting any input data, such as a string or a file, into a unique/fixed-length sequence of characters. You take any data (like a password) and pass it through a "magic math function" that produces a fixed-size string of characters (the hash value). Commonly used for password security (storing passwords securely) and data integrity checks.
 - `Token` : in a very simple way, a token is like a special pass or ticket that proves your identity or gives you access to something. Imagine you have a token that says, "I am User X." When you show this token to a website or an app, they know you are User X and let you in without asking for your password every time.
 - `Bcrypt` : is a specific library designed for securely hashing passwords.  It uses a technique called "salting," where a random value (salt) is added to each password before hashing, adding an extra layer of security against precomputed tables (rainbow tables) used in password cracking.
+- `Passport.js ` : an authentication middleware for NodeJS apps. Passport.js provides a number of features to help you secure your application, such as password hashing and CSRF protection. It provides a comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, Google, JWT and more.
 
 - ## First setup packages
 > express, dotenv, nodemon, morgan 
